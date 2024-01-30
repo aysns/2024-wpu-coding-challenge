@@ -23,6 +23,6 @@ Function should return true if it is possible and false if not.
 
 // console.log(zeroFuel(50,25,2));
 
-const zeroFuel = (distanceToPump, mpg, fuelLeft) => distanceToPump==fuelLeft*mpg;
+const zeroFuel = (distanceToPump, mpg, fuelLeft) =>fuelLeft*mpg>=distanceToPump;
 
 console.log(zeroFuel(50,25,2));
